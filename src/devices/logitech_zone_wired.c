@@ -15,10 +15,12 @@ static struct device device_zone_wired;
 
 #define ID_LOGITECH_ZONE_WIRED 0x0aad
 #define ID_LOGITECH_ZONE_750   0x0ade
+#define ID_LOGITECH_ZONE_VIBE_125   0x0aee
 
 static const uint16_t PRODUCT_IDS[] = {
     ID_LOGITECH_ZONE_WIRED,
     ID_LOGITECH_ZONE_750,
+    ID_LOGITECH_ZONE_VIBE_125,
 };
 
 static int zone_wired_send_sidetone(hid_device* device_handle, uint8_t num);
